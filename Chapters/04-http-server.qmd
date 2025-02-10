@@ -40,7 +40,7 @@ But the messages that are transmitted inside this connection are in a
 specific format. They are HTTP messages
 (i.e. messages that use the HTTP Protocol specification).
 The HTTP Protocol is the backbone of the modern web.
-The world wide web as we know it today, would not exist without the 
+The World Wide Web as we know it today would not exist without the 
 HTTP Protocol.
 
 So, Web servers (which is just a fancy name to

@@ -96,9 +96,8 @@ When you type `google.com` in your web browser, you are essentially sending an H
 HTTP servers. This request is asking these servers to send the Google webpage to you.
 
 Nonetheless, when the server receives this first message, the *HTTP Request*, it
-analyzes this request, to understand: who the client is? What he wants the server to do?
-This client has provided all the necessary information to perform the action that he
-asked? Etc.
+analyzes this request to understand: Who the client is? What does the client want the server to do?
+Has the client provided all the necessary information to perform the requested action?
 
 Once the server understands what the client wants, he simply perform the action
 that was requested, and, to finish the whole process, the server sends back

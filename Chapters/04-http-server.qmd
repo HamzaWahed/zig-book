@@ -121,13 +121,13 @@ But I will describe the theory behind the necessary steps to create
 such an HTTP server in C.
 
 
-In essence, we normally implement a HTTP server in C by using WebSocket technology,
+In essence, we normally implement an HTTP server in C by using WebSocket technology,
 which involves the following steps:
 
 1. Create a socket object.
 1. Bind a name (or more specifically, an address) to this socket object.
 1. Make this socket object to start listening and waiting for incoming connections.
-1. When a connection arrive, we accept this connection, and we exchange the HTTP messages (HTTP Request and HTTP Response).
+1. When a connection arrives, we accept this connection, and we exchange the HTTP messages (HTTP Request and HTTP Response).
 1. Then, we simply close this connection.
 
 
@@ -135,15 +135,14 @@ A socket object is essentially a channel of communication.
 You are creating a channel where people can send messages through.
 When you create a socket object, this object is not binded to any particular
 address. This means that with this object you have a representation of a channel of communication
-in your hands. But this channel is not currently available, or, it is not currently accessible,
-because it do not have a known address where you can find it.
+in your hands. However, this channel is not currently available, nor is it accessible,
+as it does not have a known address where you can find it.
 
-That is what the "bind" operation do. It binds a name (or more specifically, an address) to
-this socket object, or, this channel of communication, so that it becomes available,
-or, accessible through this address. While the "listen" operation makes the socket object to
+That is what the "bind" operation does. It binds a name (or more specifically, an address) to
+this socket object, or this channel of communication, so that it becomes available and accessible 
+through this address. While the "listen" operation makes the socket object 
 listen for incoming connections in this address. In other words, the "listen" operation
-makes the socket to wait for incoming connections.
-currently
+makes the socket wait for incoming connections.
 Now, when a client actually attempts to connect to the server through the socket address
 that we have specified, in order to establish this connection with the client,
 the socket object needs to accept this incoming connection. Thus, when we

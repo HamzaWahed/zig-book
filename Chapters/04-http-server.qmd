@@ -110,7 +110,7 @@ the main objective of this response message is to let the client know whether th
 action requested was successful before the server closes the connection.
 
 
-## How a HTTP server is normally implemented? {#sec-http-how-impl}
+## How an HTTP server is normally implemented? {#sec-http-how-impl}
 
 Let's use the C language as an example. There are many materials
 teaching how to write a simple HTTP server in C code, like @jeffrey_http,
@@ -118,7 +118,7 @@ or @nipun_http, or @eric_http.
 Having this in mind, I will not show C code examples here, because you
 can find them on the internet.
 But I will describe the theory behind the necessary steps to create
-such HTTP server in C.
+such an HTTP server in C.
 
 
 In essence, we normally implement a HTTP server in C by using WebSocket technology,

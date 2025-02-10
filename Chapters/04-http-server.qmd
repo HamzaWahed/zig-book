@@ -85,14 +85,14 @@ and it starts to exchange messages with the client through this connection.
 The first message that happens inside this connection is always a message from the client
 to the server. This message is called the *HTTP Request*.
 
-This HTTP Request is a HTTP message that contains what
+This HTTP Request is an HTTP message that contains what
 the client wants from the server. It is literally a request. The client
 that connected to the server is asking this server to do something for him.
 
-There are different "types of request" that a client can send to a HTTP Server.
-But the most basic type of request, is when a client ask to the
-HTTP Server to serve (i.e. to send) some specific web page (which is a HTML file) to him.
-When you type `google.com` in your web browser, you are essentially sending a HTTP Request to Google's
+There are different "types of request" that a client can send to an HTTP Server.
+But the most basic type of request, is when a client asks the
+HTTP Server to serve (i.e. to send) some specific web page (which is an HTML file) to him.
+When you type `google.com` in your web browser, you are essentially sending an HTTP Request to Google's
 HTTP servers. This request is asking these servers to send the Google webpage to you.
 
 Nonetheless, when the server receives this first message, the *HTTP Request*, it

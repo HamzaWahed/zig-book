@@ -43,8 +43,8 @@ The HTTP Protocol is the backbone of the modern web.
 The World Wide Web as we know it today would not exist without the 
 HTTP Protocol.
 
-So, Web servers (which is just a fancy name to
-HTTP Servers) are servers that exchange HTTP messages with clients.
+So, web servers (which is just a fancy name for
+HTTP servers) are servers that exchange HTTP messages with clients.
 And these HTTP servers and the HTTP Protocol specification
 are essential to the operation of the world wide web today.
 
@@ -63,15 +63,15 @@ HTTP works, and what role the server plays in this matter.
 
 ## How a HTTP Server works? {#sec-how-http-works}
 
-Imagine a HTTP Server as if it were the receptionist of a large hotel. In a hotel,
+Imagine an HTTP Server as if it were the receptionist of a large hotel. In a hotel,
 you have a reception, and inside that reception there is a receptionist
-waiting for customers to arrive. A HTTP Server is essentially a receptionist
+waiting for customers to arrive. An HTTP Server is essentially a receptionist
 that is indefinitely waiting for new customers (or, in the context of HTTP, new clients)
 to arrive in the hotel.
 
 When a customer arrives at the hotel, that customer starts a conversation with the
 receptionist. He tells the receptionist how many days he wants to stay at the hotel.
-Then, the receptionist search for an available apartment. If there is an available apartment
+Then, the receptionist searches for an available apartment. If there is an available apartment
 at the moment, the customer pays the hotel fees, then, he gets the keys to the apartment,
 and then, he goes to the apartment to rest.
 
@@ -79,7 +79,7 @@ After this entire process of dealing with the customer (searching for available 
 receiving payment, handing over the keys), the receptionist goes back to what he was
 doing earlier, which is to wait. Wait for new customers to arrive.
 
-That is, in a nutshell, what a HTTP Server do. It waits for clients to connect to the
+That is, in a nutshell, what an HTTP Server does. It waits for clients to connect to the
 server. When a client attempts to connect to the server, the server accepts this connection,
 and it starts to exchange messages with the client through this connection.
 The first message that happens inside this connection is always a message from the client
